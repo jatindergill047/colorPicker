@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>color-picker</title>
+</head>
+<body>
+    <form action="" class="input-div">
+        <div>
+            <label for="nameOfColor">Enter Color Name</label>
+            <input type="text" id="nameOfColor" placeholder="Enter Color Name e.g: red ">
+        </div>
+        <div>
+            <label for="numOfPalette">Enter Number of Palette</label>
+            <input type="number" id="numOfPalette" placeholder="Number of color palettes you want" min="1">
+        </div>
+        <div>
+            <label for="luminosity">Choose Luminosity</label>
+            <input type="text" id="luminosity" placeholder="Dark or Light or Random">
+        </div>
+        <div>
+            <input type="button" id="subbtn" value="Submit">
+        </div>
+       
+    </form>
+    <div id="palettes">     
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/randomcolor/0.5.2/randomColor.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="logic.js"></script>
+
+</body>
+</html>
