@@ -1,6 +1,6 @@
 $('#subbtn').on('click', function(event) {
         event.preventDefault();
-        // $('#palettes').html(''); 
+       
     $("#palettes #box").remove();
 
     var colorName = $('#nameOfColor').val();
